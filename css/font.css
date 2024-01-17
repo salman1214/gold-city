@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'sf_Koonj Regular';
+  src: url('../fonts/sf_Koonj%20Regular.eot');
+  src: url('../fonts/sf_Koonj%20Regular.eot#iefix') format('embedded-opentype'),
+       url('../fonts/sf_Koonj%20Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sf_Koonj';
+  src: url('../images/sf_Koonj.svg#sf_Koonj') format('svg'),
+       url('../fonts/sf_Koonj.ttf') format('truetype'),
+       url('../fonts/sf_Koonj.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

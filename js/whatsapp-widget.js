@@ -3,7 +3,7 @@ function CreateWhatsappChatWidget(option = {
         autoShow: true,
         backgroundColor: "#4646af",
         borderRadius: "25",
-        brandImg: "https://www.mobilinkbank.com/assets/images/whatsapp-dost-icon.webp",
+        brandImg: "https://www.goldcity.com/assets/images/whatsapp-dost-icon.webp",
         brandImgData: null,
         brandName: "MMBL",
         brandSubTitle: "Typically replies within a few minutes",
@@ -37,7 +37,7 @@ function CreateWhatsappChatWidget(option = {
         initWidget();
     } else {
         var script = document.createElement("SCRIPT");
-        script.src = 'https://www.mobilinkbank.com/assets/theme_js/jquery-3.6.0.min.js';
+        script.src = 'https://www.goldcity.com/assets/theme_js/jquery-3.6.0.min.js';
         script.type = 'text/javascript';
         script.onload = function() {
             initWidget();
@@ -52,19 +52,19 @@ function CreateWhatsappChatWidget(option = {
         }
         jQuery('body').append(`<div id="whatsapp_chat_widget">
             <div id="wa-widget-send-button">
-                 <img src="https://www.mobilinkbank.com/assets/images/Whatsapp-icon.webp"  alt="Whatsapp"/>
+                 <img src="https://www.goldcity.com/assets/images/Whatsapp-icon.webp"  alt="Whatsapp"/>
                 <div style="color: white; font-size: 18px">${option.chatButtonSetting.ctaText}</div>
             </div>
         </div>`);
         jQuery('#whatsapp_chat_widget').append(`
             <div class='wa-chat-box'>
                 <div class='wa-chat-box-header'>
-                    <img class='wa-chat-box-brand' onError='this.src= "https://www.mobilinkbank.com/assets/images/whatsapp-dost-icon.webp";'  src='${option.brandSetting.brandImg}'/>
+                    <img class='wa-chat-box-brand' onError='this.src= "https://www.goldcity.com/assets/images/whatsapp-dost-icon.webp";'  src='${option.brandSetting.brandImg}'/>
                     <div class='wa-chat-box-brand-text'>
                         <div class='wa-chat-box-brand-name'>${option.brandSetting.brandName}</div>
                         <div class='wa-chat-box-brand-subtitle'>${option.brandSetting.brandSubTitle}</div>
                     </div>
-                    <div class="wa-chat-bubble-close-btn"><img  style="display: table-row" src="https://www.mobilinkbank.com/assets/images/Vector.png?574"></div>
+                    <div class="wa-chat-bubble-close-btn"><img  style="display: table-row" src="https://www.goldcity.com/assets/images/Vector.png?574"></div>
                 </div>
                 
                 <div class='wa-chat-box-content'>
@@ -159,7 +159,7 @@ function CreateWhatsappChatWidget(option = {
             border-radius: 10px;
         }
         .wa-chat-box-content{
-            background: url('https://www.mobilinkbank.com/assets/images/bgchat_1976.png');
+            background: url('https://www.goldcity.com/assets/images/bgchat_1976.png');
             
         }
         .wa-chat-bubble-close-btn{

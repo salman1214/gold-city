@@ -3256,7 +3256,7 @@ fieldset:disabled .btn {
   border-radius: 0.2rem;
 }
 .fade {
-  transition: opacity 0.15s linear;
+  transition: opacity 2s linear;
 }
 @media (prefers-reduced-motion: reduce) {
   .fade {
@@ -19449,21 +19449,21 @@ body.urdu .slider-rotation {
 }
 .social-section ul li {
   display: inline-block;
-  background-color: var(--colorred);
-  color: var(--colorwhite);
+  /* background-color: var(--colorred); */
+  /* color: var(--colorwhite); */
   margin: 10px;
 }
 .social-section ul li a {
   width: 113px;
   height: 113px;
   display: block;
-  background-color: var(--colorred);
+  /* background-color: var(--colorred); */
   font-size: 70px;
 }
-.social-section ul li a svg.fa-facebook {
+/* .social-section ul li a svg.fa-facebook {
   color: var(--colorwhite);
-}
-.social-section ul li a svg.fa-instagram {
+} */
+/* .social-section ul li a svg.fa-instagram {
   color: var(--colorwhite);
 }
 .social-section ul li a svg.fa-linkedin {
@@ -19474,14 +19474,14 @@ body.urdu .slider-rotation {
 }
 .social-section ul li a svg.fa-twitter {
   color: var(--colorwhite);
-}
-.social-section ul li:first-child a:hover {
+} */
+/* .social-section ul li:first-child a:hover {
   background-color: #3b5998;
-}
-.social-section ul li:first-child a:hover svg.fa-facebook {
+} */
+/* .social-section ul li:first-child a:hover svg.fa-facebook {
   color: var(--colorwhite);
-}
-.social-section ul li:nth-child(2) a:hover {
+} */
+/* .social-section ul li:nth-child(2) a:hover {
   background: #f09433;
   background: -moz-linear-gradient(
     45deg,
@@ -19507,35 +19507,35 @@ body.urdu .slider-rotation {
     #cc2366 75%,
     #bc1888 100%
   );
-}
-.social-section ul li:nth-child(2) a:hover svg.fa-instagram {
+} */
+/* .social-section ul li:nth-child(2) a:hover svg.fa-instagram {
   color: var(--colorwhite);
-}
-.social-section ul li:nth-child(3) a:hover {
+} */
+/* .social-section ul li:nth-child(3) a:hover {
   background-color: #0e76a8;
-}
-.social-section ul li:nth-child(3) a:hover svg.fa-linkedin {
+} */
+/* .social-section ul li:nth-child(3) a:hover svg.fa-linkedin {
   color: var(--colorwhite);
-}
+} */
 /* .social-section ul li:nth-child(4) a:hover {
   background-color: #c4302b;
 }
 .social-section ul li:nth-child(4) a:hover svg.fa-youtube {
   color: var(--colorwhite);
 } */
-.social-section ul li:nth-child(4) a:hover {
+/* .social-section ul li:nth-child(4) a:hover {
    background-color: #00acee;
-}
-.social-section ul li:nth-child(4) a:hover svg.fa-youtube {
+} */
+/* .social-section ul li:nth-child(4) a:hover svg.fa-youtube {
    color: var(--colorwhite);
-}
+} */
 
-.social-section ul li:nth-child(5) a:hover {
+/* .social-section ul li:nth-child(5) a:hover {
    background-color: #000;
-}
-.social-section ul li:nth-child(5) a:hover svg.fa-youtube {
+} */
+/* .social-section ul li:nth-child(5) a:hover svg.fa-youtube {
    color: var(--colorwhite);
-}
+} */
 
 /* .social-section ul li:last-child a:hover {
   background-color: #00acee;
@@ -19544,7 +19544,7 @@ body.urdu .slider-rotation {
   color: var(--colorwhite);
 } */
 
-.social-section ul li:nth-child(6) a:hover {
+/* .social-section ul li:nth-child(6) a:hover {
    background: #f09433;
    background: -moz-linear-gradient(
      45deg,
@@ -19570,10 +19570,10 @@ body.urdu .slider-rotation {
      #cc2366 75%,
      #bc1888 100%
    );
-}
-.social-section ul li:nth-child(6) a:hover svg.fa-instagram {
-   color: var(--colorwhite);
-}
+} */
+/* .social-section ul li:nth-child(6) a:hover svg.fa-instagram {
+   color: var(--colorwhite); */
+/* } */
 
 
 
@@ -21261,7 +21261,7 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
     border-bottom: 1px solid #fff;
   }
   .career-section .container {
-    background-image: url("../images/career-mobile-bg.webp");
+    background: url("../gold-img/WhatsApp Image 2022-12-27 at 9.19.39 AM.jpeg") no-repeat;
     height: 644px;
   }
   .career-section .container .row {

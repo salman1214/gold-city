@@ -53,6 +53,12 @@
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-M7MNLRL');</script>
     <!-- End Google Tag Manager -->
+    <script>
+        function toggleMenu() {
+          var menu = document.querySelector('.icons-bar');
+          menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+        }
+      </script>
 
 </head>
 
@@ -380,135 +386,6 @@
             });
         </script>
     </header>
-
-    <style>
-        .color-red {
-            color: #4646af !important;
-        }
-
-        .social-section ul li:nth-child(3) a:hover {
-            background-color: #FF0000;
-        }
-
-        .social-section ul li:nth-child(2) a:hover {
-            background: #0072b1;
-        }
-
-        #homeModal .modal-dialog {
-            max-width: 850px;
-            margin: 1.75rem auto;
-        }
-
-        #homeModal .modal-content {
-            background: transparent !important;
-            border: none !important;
-        }
-
-        #homeModal .pop-btn {
-            position: absolute;
-            top: 5px;
-            right: 5px;
-            z-index: 99999;
-            color: #fff;
-        }
-
-        #homeModal .btn-close {
-            background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
-        }
-
-        #homeModal .swiper-button-next,
-        #homeModal .swiper-button-prev {
-            opacity: 0;
-        }
-
-        .swiper.mySwiper-pop {
-            width: 100%;
-            height: 100%;
-        }
-
-        .mySwiper-pop .swiper-slide {
-            background: transparent !important;
-            text-align: center;
-            font-size: 18px;
-            background: #fff;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            -webkit-justify-content: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            -webkit-align-items: center;
-            align-items: center;
-            border-radius: 15px;
-        }
-
-        .mySwiper-pop .swiper-slide img {
-            border-radius: 15px;
-            display: block;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .swiper-pagination-bullet {
-            width: 30px !important;
-            height: 5px !important;
-            display: inline-block;
-            border-radius: 0;
-            border-radius: 5px !important;
-            background: var(--swiper-pagination-bullet-inactive-color, #fff);
-            opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
-        }
-
-        .mySwiper-pop .swiper-pagination-bullet-active {
-            background: var(--colorred) !important;
-            opacity: var(--swiper-pagination-bullet-inactive-opacity, 1);
-        }
-
-        .tabs-loan ul {
-            width: fit-content;
-            margin: 25px auto 45px;
-        }
-
-        .tabs-loan ul li {
-            padding: 15px 0px;
-        }
-
-        .tabs-loan ul li a {
-            padding: 15px 20px;
-            border: none;
-            border-bottom: 3px solid transparent;
-            font-size: 18px;
-            color: var(--colorblack);
-            transition: all 0.5s;
-        }
-
-        .tabs-loan ul li a:hover {
-            color: var(--colorred);
-        }
-
-        .tabs-loan ul li.active a {
-            border: none;
-            border-bottom: 3px solid var(--colorred);
-            color: var(--colorred);
-        }
-
-        @media (max-width:767px) {
-            #homeModal .modal-dialog {
-                max-width: 450px;
-            }
-        }
-
-        @media (max-width: 767px) and (orientation: landscape) {
-            #homeModal .modal-dialog {
-                max-width: 450px;
-            }
-        }
-    </style>
 
     <!-- ============================================ Slider Section ============================================ -->
     <section class="slider-section">
@@ -1384,6 +1261,10 @@
                         <h2 style="font-size: 50px; color: gold;"  data-aos="fade-up" data-aos-offset="50" data-aos-duration="1000">Become an
                             Islamabad Gold City Visionary</h2>
                     </div>
+                     <div class="mobile-devices">
+                        <h2 style="font-size: 50px; color: gold;"  data-aos="fade-up" data-aos-offset="50" data-aos-duration="1000">Become an
+                            Islamabad Gold City Visionary</h2>
+                    </div>
                     <p data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">Join us on our journey to a
                         financially inclusive Pakistan.</p>
                     <a class="btn-stndrd d-login-btn" href="about.html" data-aos="zoom-in" data-aos-offset="180"
@@ -1713,51 +1594,35 @@
                     <h2 data-aos="fade-up" data-aos-offset="50" data-aos-duration="1000">Follow Us</h2>
                     <ul>
 
-                        <li 
-                        style="border-radius: 30px;"
-
-                         data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000"><a 
-                           
-                             role="link"
-                                aria-label="link label" class=""
-                                href="https://www.facebook.com/" rel="noreferrer"
+                        <li data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000"><a role="link"
+                                aria-label="link label" class="" href="https://www.facebook.com/" rel="noreferrer"
                                 target="_blank">
 
-                                <!-- <i class="fab fa-facebook"></i> -->
-                                <img src="IMAGESS/facebook.svg" style="width: 120px;" />
+                                <i class="fab fa-facebook"></i>
 
                             </a></li>
 
                         <li data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000"><a role="link"
-                                aria-label="link label" class=""
-                                href="https://www.youtube.com/" rel="noreferrer"
+                                aria-label="link label" class="" href="https://www.youtube.com/" rel="noreferrer"
                                 target="_blank">
 
-                                <!-- <i class="fab fa-youtube"></i> -->
-                                <img style="width: 120px;"
-                                src="IMAGESS/youtube.svg" />
-
+                                <i class="fab fa-youtube"></i>
 
                             </a></li>
 
                         <li data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000"><a role="link"
-                                aria-label="link label" class="" href="https://twitter.com/"
-                                rel="noreferrer" target="_blank">
+                                aria-label="link label" class="" href="https://twitter.com/" rel="noreferrer"
+                                target="_blank">
 
-                                <!-- <i class="fab fa-twitter"></i> -->
-                                <img style="width: 120px;"
-                                src="IMAGESS/twitter.svg" />
-
+                                <i class="fab fa-twitter"></i>
 
                             </a></li>
 
                         <li data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000"><a role="link"
-                                aria-label="link label" class="" href="https://www.instagram.com/"
-                                rel="noreferrer" target="_blank">
+                                aria-label="link label" class="" href="https://www.instagram.com/" rel="noreferrer"
+                                target="_blank">
 
-                                <!-- <i class="fab fa-instagram"></i> -->
-                                <img style="width: 120px;" 
-                                src="IMAGESS/instagram.svg" />
+                                <i class="fab fa-instagram"></i>
 
                             </a></li>
 
@@ -1768,109 +1633,109 @@
     </section>
 
 
-    <div class="modal fade show" id="homeModal" tabindex="-1" aria-labelledby="homeModalLabel" aria-modal="true"
-        role="dialog">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <button type="button" class="btn-close pop-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+    <!-- <div class="modal fade show" id="homeModal" tabindex="-1" aria-labelledby="homeModalLabel" aria-modal="true"
+    role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <button type="button" class="btn-close pop-btn" data-bs-dismiss="modal" aria-label="Close"></button>
 
-                <div class="swiper mySwiper-pop">
+            <div class="swiper mySwiper-pop">
 
-                    <div class="swiper-wrapper">
-
-
-                        <div class="swiper-slide">
-                            <a href="">
-                                <div class="desktop-devices">
-                                    <img class="img-fluid" src="gold-img/WhatsApp Image 2022-12-27 at 9.29.08 AM (2).jpeg" alt="Image">
-                                </div>
-                                <div class="mobile-devices">
-                                    <img class="img-fluid" src="gold-img/WhatsApp Image 2022-12-27 at 9.29.08 AM (2).jpeg" alt="Image">
-                                </div>
-                            </a>
-                        </div>
+                <div class="swiper-wrapper">
 
 
-
-                        <div class="swiper-slide">
-                            <a href="">
-                                <div class="desktop-devices" >
-                                    <img class="img-fluid" src="gold-img/WhatsApp Image 2022-12-27 at 9.29.08 AM (2).jpeg" alt="Image">
-                                </div>
-                                <div class="mobile-devices">
-                                    <img class="img-fluid" src="gold-img/WhatsApp Image 2022-12-27 at 9.29.08 AM (2).jpeg" alt="Image">
-                                </div>
-                            </a>
-                        </div>
-
-
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="desktop-devices">
+                                <img class="img-fluid" src="gold-img/WhatsApp Image 2022-12-27 at 9.29.08 AM (2).jpeg" alt="Image">
+                            </div>
+                            <div class="mobile-devices">
+                                <img class="img-fluid" src="gold-img/WhatsApp Image 2022-12-27 at 9.29.08 AM (2).jpeg" alt="Image">
+                            </div>
+                        </a>
                     </div>
 
 
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-pagination"></div>
+
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="desktop-devices" >
+                                <img class="img-fluid" src="gold-img/WhatsApp Image 2022-12-27 at 9.29.08 AM (2).jpeg" alt="Image">
+                            </div>
+                            <div class="mobile-devices">
+                                <img class="img-fluid" src="gold-img/WhatsApp Image 2022-12-27 at 9.29.08 AM (2).jpeg" alt="Image">
+                            </div>
+                        </a>
+                    </div>
+
+
                 </div>
 
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
+
         </div>
     </div>
+</div> -->
 
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $("#homeModal").modal('show');
-            var swiper = new Swiper(".mySwiper-pop", {
-                slidesPerView: 1,
-                spaceBetween: 30,
-                centeredSlides: true,
-                autoplay: {
-                    delay: 5000,
-                    disableOnInteraction: false,
-                },
-                pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
-                },
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                },
-            });
+<!-- <script type="text/javascript">
+    $(document).ready(function () {
+        $("#homeModal").modal('show');
+        var swiper = new Swiper(".mySwiper-pop", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
         });
-        // Show the first tab and hide the rest
-        $('#tabs-nav-loan li:first-child').addClass('active');
+    });
+    // Show the first tab and hide the rest
+    $('#tabs-nav-loan li:first-child').addClass('active');
+    $('.tab-content-loan').hide();
+    $('.tab-content-loan:first').show();
+
+    // Click function
+    $('#tabs-nav-loan li').click(function () {
+        $('#tabs-nav-loan li').removeClass('active');
+        $(this).addClass('active');
         $('.tab-content-loan').hide();
-        $('.tab-content-loan:first').show();
 
-        // Click function
-        $('#tabs-nav-loan li').click(function () {
-            $('#tabs-nav-loan li').removeClass('active');
-            $(this).addClass('active');
-            $('.tab-content-loan').hide();
-
-            var activeTab = $(this).find('a').attr('href');
-            $(activeTab).fadeIn();
-            return false;
-        });
-    </script>
+        var activeTab = $(this).find('a').attr('href');
+        $(activeTab).fadeIn();
+        return false;
+    });
+</script> -->
 
 
-    <style>
-        p.helpline-text {
-            color: var(--colorblack);
-            font-size: 14px;
-            margin-top: 10px;
-        }
+<style>
+    p.helpline-text {
+        color: var(--colorblack);
+        font-size: 14px;
+        margin-top: 10px;
+    }
 
-        p.helpline-text a {
-            color: var(--colorred);
-        }
+    p.helpline-text a {
+        color: var(--colorred);
+    }
 
-        p.helpline-text a:hover {
-            color: var(--colorblack);
-            text-decoration: underline;
-        }
-    </style>
+    p.helpline-text a:hover {
+        color: var(--colorblack);
+        text-decoration: underline;
+    }
+</style>
 
     <footer id="footer" class="border-top-sep bg-color-red1 mt-sec om-footer">
         <div class="container">

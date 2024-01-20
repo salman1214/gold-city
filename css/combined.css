@@ -18932,26 +18932,26 @@ body.urdu .compl-cus .product-services-section .tab-content .tab-pane ol li {
 .product-box {
   position: relative;
   display: block;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 .product-box .product-image {
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
   position: relative;
   margin: auto;
   overflow: hidden;
   max-width: 100%;
 }
 .product-box .product-image img {
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
   max-width: 100%;
   display: block;
   width: 100%;
@@ -18968,10 +18968,10 @@ body.urdu .compl-cus .product-services-section .tab-content .tab-pane ol li {
   text-align: center;
   display: flex;
   justify-content: center;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 .product-box .product-details h3 {
   color: var(--colorwhite);
@@ -18981,10 +18981,10 @@ body.urdu .compl-cus .product-services-section .tab-content .tab-pane ol li {
   padding: 0 2rem;
   align-self: flex-end;
   margin-bottom: 25px;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 .product-box:hover .product-image img {
   transform: scale(1.1);

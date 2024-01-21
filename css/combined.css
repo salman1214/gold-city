@@ -18973,9 +18973,9 @@ body.urdu .compl-cus .product-services-section .tab-content .tab-pane ol li {
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-.product-box .product-details h3 {
+.product-box .product-details h5 {
   color: var(--colorwhite);
-  font-size: 26px;
+  font-size: 19px;
   vertical-align: bottom;
   text-align: center;
   padding: 0 2rem;
@@ -19000,7 +19000,7 @@ body.urdu .compl-cus .product-services-section .tab-content .tab-pane ol li {
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-.product-box:hover .product-details h3 {
+.product-box:hover .product-details h5 {
   margin-bottom: 45px;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -21194,7 +21194,7 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
     padding: 0.5rem 0.5rem;
     vertical-align: bottom;
   }
-  .product-box .product-details h3 {
+  .product-box .product-details h5 {
     font-size: 18px;
     padding: 0 1rem;
   }

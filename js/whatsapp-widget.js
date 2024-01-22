@@ -5,7 +5,7 @@ function CreateWhatsappChatWidget(option = {
         borderRadius: "25",
         brandImg: "https://www.goldcity.com/assets/images/whatsapp-dost-icon.webp",
         brandImgData: null,
-        brandName: "MMBL",
+        brandName: "GOLD CITY",
         brandSubTitle: "Typically replies within a few minutes",
         ctaText: "Start Chat",
         welcomeText: "Hi, there! \nHow can I help you?",

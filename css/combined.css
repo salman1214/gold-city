@@ -13138,7 +13138,7 @@ button.swiper-pagination-bullet {
 .fa-pied-piper-square:before {
   content: "\e01e";
 }
-.fa-piggy-bank:before {
+.fa-piggy-gold-city:before {
   content: "\f4d3";
 }
 .fa-pills:before {
@@ -18932,26 +18932,26 @@ body.urdu .compl-cus .product-services-section .tab-content .tab-pane ol li {
 .product-box {
   position: relative;
   display: block;
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 .product-box .product-image {
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
   position: relative;
   margin: auto;
   overflow: hidden;
   max-width: 100%;
 }
 .product-box .product-image img {
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
   max-width: 100%;
   display: block;
   width: 100%;
@@ -18968,23 +18968,23 @@ body.urdu .compl-cus .product-services-section .tab-content .tab-pane ol li {
   text-align: center;
   display: flex;
   justify-content: center;
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
-.product-box .product-details h3 {
+.product-box .product-details h5 {
   color: var(--colorwhite);
-  font-size: 26px;
+  font-size: 19px;
   vertical-align: bottom;
   text-align: center;
   padding: 0 2rem;
   align-self: flex-end;
   margin-bottom: 25px;
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 .product-box:hover .product-image img {
   transform: scale(1.1);
@@ -19000,7 +19000,7 @@ body.urdu .compl-cus .product-services-section .tab-content .tab-pane ol li {
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-.product-box:hover .product-details h3 {
+.product-box:hover .product-details h5 {
   margin-bottom: 45px;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -19827,7 +19827,7 @@ input::-webkit-input-placeholder {
   font-size: 18px;
   color: var(--colorblack);
 }
-.about-the-bank .about-sl-box span {
+.about-the-gold-city .about-sl-box span {
   font-size: 14px;
 }
 .bod-slider-section {
@@ -19856,7 +19856,7 @@ input::-webkit-input-placeholder {
 }
 .bod-box p {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 18px;
   color: var(--colorblack);
   padding-top: 15px;
 }
@@ -19920,8 +19920,11 @@ input::-webkit-input-placeholder {
 .partner-box p {
   margin-top: 25px;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 18px;
   color: var(--colorblack);
+}
+.partner-box h4 {
+  margin-top: 20px;
 }
 .partner-box img {
   width: auto;
@@ -20043,7 +20046,7 @@ input::-webkit-input-placeholder {
 .mob-d {
   display: none;
 }
-.about-the-bank .about-sl-box {
+.about-the-gold-city .about-sl-box {
   border: 1px solid #e0e0e0;
 }
 .about-sl-box span {
@@ -20236,7 +20239,7 @@ footer .accordion-button:not(.collapsed)::after {
 .m-auto {
   margin: 0 auto;
 }
-.mobilink-section p {
+.gold-city-section p {
   font-size: 20px;
 }
 .hide-m {
@@ -20490,7 +20493,7 @@ span.bg-color-white {
 .management-section .colo-red {
   font-weight: 700;
 }
-.mobilink-section .color-red {
+.gold-city-section .color-red {
   font-weight: 700;
 }
 .slider-bot-text p {
@@ -20503,60 +20506,60 @@ span.bg-color-white {
     width: 30px;
     height: auto;
   }
-  .about-the-bank .about-sl-box p {
+  .about-the-gold-city .about-sl-box p {
     font-size: 14px;
   }
-  .about-the-bank .about-sl-box h4 {
+  .about-the-gold-city .about-sl-box h4 {
     font-size: 27px;
   }
 }
 .footer-img {
   display: inline-block;
 }
-.mmbl-form span.select2.select2-container.select2-container--default {
+.gold-city-form span.select2.select2-container.select2-container--default {
   width: 100% !important;
 }
-.mmbl-form
+.gold-city-form
   .select2-container
   .select2-selection--single
   .select2-selection__rendered {
   font-size: 16px;
   font-weight: 500;
 }
-.mmbl-form .select2-container--default .select2-selection--single {
+.gold-city-form .select2-container--default .select2-selection--single {
   background-color: #fff;
   border: none;
   border-bottom: 1px solid #000;
   border-radius: 0;
 }
-.mmbl-form
+.gold-city-form
   .select2-container
   .select2-selection--single
   .select2-selection__rendered {
   padding-left: 6.5px;
 }
-.mmbl-form
+.gold-city-form
   .select2-container--default
   .select2-selection--single
   .select2-selection__rendered {
   color: #000;
 }
-.mmbl-form .select2-container .select2-selection--single {
+.gold-city-form .select2-container .select2-selection--single {
   height: 40px;
 }
-.mmbl-form
+.gold-city-form
   .select2-container
   .select2-selection--single
   .select2-selection__rendered {
   line-height: 22px;
 }
-.mmbl-form
+.gold-city-form
   .select2-container--default
   .select2-selection--single
   .select2-selection__arrow {
   height: 10px;
 }
-.mmbl-form .form-floating {
+.gold-city-form .form-floating {
   margin-bottom: 50px;
 }
 .form-control,
@@ -20609,12 +20612,12 @@ span.bg-color-white {
 .form-select:focus + label {
   color: var(--colorred);
 }
-.mmbl-form input[type="submit"] {
+.gold-city-form input[type="submit"] {
   color: #2196f3;
   border-color: #2196f3;
 }
-.mmbl-form input[type="submit"]:focus,
-.mmbl-form input[type="submit"]:hover {
+.gold-city-form input[type="submit"]:focus,
+.gold-city-form input[type="submit"]:hover {
   color: #fff;
   background-color: #2196f3;
   outline: 0;
@@ -21194,7 +21197,7 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
     padding: 0.5rem 0.5rem;
     vertical-align: bottom;
   }
-  .product-box .product-details h3 {
+  .product-box .product-details h5 {
     font-size: 18px;
     padding: 0 1rem;
   }
@@ -21505,7 +21508,7 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
     margin: 40px 0 30px 0;
   }
   .about-sl-box p {
-    font-size: 18px;
+    font-size: 15px;
   }
   .about-sl-box h3 {
     font-size: 48px;
@@ -23605,7 +23608,7 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
   }
   .about-sl-box p {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 12px;
     color: var(--colorblack);
   }
   .bod-box {
@@ -24571,7 +24574,7 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
     height: 430px;
   }
 }
-.mmbl-form .form-check-input[type="radio"]:checked + label:before,
+.gold-city-form .form-check-input[type="radio"]:checked + label:before,
 label.btn input[type="radio"]:checked + label:before {
   border: 2px solid transparent;
 }
@@ -24580,7 +24583,7 @@ label.btn input[type="radio"]:checked + label:before {
 .form-check-input[type="radio"]:checked + label:after,
 .form-check-input[type="radio"]:checked + label:before,
 .form-check-input[type="radio"]:not(:checked) + label:after,
-.mmbl-form input[type="radio"]:not(:checked) + label:before,
+.gold-city-form input[type="radio"]:not(:checked) + label:before,
 label.btn input[type="radio"].with-gap:checked + label:after,
 label.btn input[type="radio"].with-gap:checked + label:before,
 label.btn input[type="radio"]:checked + label:after,
@@ -24591,7 +24594,7 @@ label.btn input[type="radio"]:not(:checked) + label:before {
   border: 2px solid #000;
 }
 .form-check-input[type="radio"] + label:after,
-.mmbl-form .form-check-input[type="radio"] + label:before,
+.gold-city-form .form-check-input[type="radio"] + label:before,
 label.btn input[type="radio"] + label:after,
 label.btn input[type="radio"] + label:before {
   position: absolute;
@@ -24607,36 +24610,36 @@ label.btn input[type="radio"] + label:before {
 }
 .form-check-input[type="radio"].with-gap:checked + label:before,
 .form-check-input[type="radio"]:checked + label:after,
-.mmbl-form .form-check-input[type="radio"].with-gap:checked + label:after,
+.gold-city-form .form-check-input[type="radio"].with-gap:checked + label:after,
 label.btn input[type="radio"].with-gap:checked + label:after,
 label.btn input[type="radio"].with-gap:checked + label:before,
 label.btn input[type="radio"]:checked + label:after {
   border: 2px solid var(--colorred);
 }
 .form-check-input[type="radio"]:checked + label:after,
-.mmbl-form .form-check-input[type="radio"].with-gap:checked + label:after,
+.gold-city-form .form-check-input[type="radio"].with-gap:checked + label:after,
 label.btn input[type="radio"].with-gap:checked + label:after,
 label.btn input[type="radio"]:checked + label:after {
   background-color: var(--colorred);
 }
-.mmbl-form .form-check-input[type="radio"]:checked + label:after,
+.gold-city-form .form-check-input[type="radio"]:checked + label:after,
 label.btn input[type="radio"]:checked + label:after {
   -webkit-transform: scale(1.02);
   transform: scale(1.02);
 }
-.mmbl-form
+.gold-city-form
   .select2-container--default
   .select2-selection--single
   .select2-selection__arrow {
   height: 60px;
 }
-.mmbl-form
+.gold-city-form
   .select2-container
   .select2-selection--single
   .select2-selection__rendered {
   line-height: 70px;
 }
-.mmbl-form .select2-container .select2-selection--single {
+.gold-city-form .select2-container .select2-selection--single {
   height: 65px;
 }
 .wrapper button {
@@ -24953,7 +24956,7 @@ body.urdu .breadcrumb-item + .breadcrumb-item::before {
 body.urdu .ps-timeline-sec .container ol.ps-timeline li p {
   line-height: 27px;
 }
-body.urdu .mobilink-section .color-red {
+body.urdu .gold-city-section .color-red {
   line-height: 56px;
 }
 body.urdu .bod-box h3 {
@@ -25959,7 +25962,7 @@ body.urdu .news-ticker-h li a {
 body.modal-open .select2-container--open {
   z-index: 9991;
 }
-.mmbl-form
+.gold-city-form
   .select2-container--default
   .select2-selection--single
   .select2-selection__rendered {
@@ -26003,7 +26006,7 @@ body.urdu .form-floating > .form-select ~ label {
   transform: scale(0.85) translateY(-0.8rem) translateX(0.95rem);
 }
 body.urdu .form-check-input[type="radio"] + label:after,
-body.urdu .mmbl-form .form-check-input[type="radio"] + label:before,
+body.urdu .gold-city-form .form-check-input[type="radio"] + label:before,
 body.urdu label.btn input[type="radio"] + label:after,
 body.urdu label.btn input[type="radio"] + label:before {
   left: auto;

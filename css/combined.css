@@ -19842,7 +19842,7 @@ input::-webkit-input-placeholder {
   padding: 75px 40px;
   text-align: center;
   /* overflow-y: auto; */
-  /* height: 50px; */
+  height: 450px;
 }
 .bod-box h3 {
   font-weight: 700;
@@ -21718,7 +21718,7 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
   }
   .bod-slider-section .bod-box {
     padding: 15px 25px 15px 25px;
-    height: 760px;
+    height: 440px;
   }
   .introduction-section .box {
     display: flex;
@@ -21899,7 +21899,7 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
   }
   .bod-slider-section .bod-box {
     padding: 15px 25px 25px 25px;
-    height: 790px;
+    height: 400px;
   }
   .manag-sec .bod-box {
     height: 560px !important;
@@ -21967,7 +21967,7 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
   }
   .bod-slider-section .bod-box {
     padding: 15px 25px 25px 25px;
-    height: 820px;
+    height: 370px;
   }
   .manag-sec .bod-box {
     height: 600px !important;
@@ -22020,7 +22020,7 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
   }
   .bod-slider-section .bod-box {
     padding: 15px 25px 25px 25px;
-    height: 845px;
+    height: 350px;
   }
   .manag-sec .bod-box {
     height: 600px;

@@ -21611,7 +21611,7 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
   }
   .bod-slider-section .bod-box {
     padding: 15px 25px 15px 25px;
-    /* height: 750px; */
+    height: 450px;
   }
   .manag-sec .bod-box {
     height: 490px;
@@ -21967,7 +21967,7 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
   }
   .bod-slider-section .bod-box {
     padding: 15px 25px 25px 25px;
-    /* height: 820px; */
+    height: 820px;
   }
   .manag-sec .bod-box {
     height: 600px !important;
@@ -23630,7 +23630,7 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
   .bod-slider-section .bod-box {
     padding: 50px 50px;
     text-align: center;
-    height: 350px;
+    height: 450px;
   }
   .manag-sec .bod-box {
     padding: 50px 50px;
@@ -23853,7 +23853,7 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
   .bod-slider-section .bod-box {
     padding: 50px 50px;
     text-align: center;
-    /* height: 450px; */
+    height: 450px;
   }
   .manag-sec .bod-box {
     padding: 50px 50px;

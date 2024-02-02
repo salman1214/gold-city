@@ -19835,14 +19835,14 @@ input::-webkit-input-placeholder {
   display: block;
 }
 .bod-box {
-  background: #fff url("../images/bod-box-bg.jpg") no-repeat;
-  background-size: contain;
+  /* background: #fff url("../images/bod-box-bg.jpg") no-repeat; */
+  /* background-size: contain; */
   border: 1px solid #000;
   margin-inline: 0;
   padding: 75px 40px;
   text-align: center;
-  overflow-y: auto;
-  height: 950px;
+  /* overflow-y: auto; */
+  /* height: 50px; */
 }
 .bod-box h3 {
   font-weight: 700;
@@ -21611,14 +21611,14 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
   }
   .bod-slider-section .bod-box {
     padding: 15px 25px 15px 25px;
-    height: 750px;
+    height: 450px;
   }
   .manag-sec .bod-box {
     height: 490px;
   }
   .bod-box {
     padding: 15px 25px 15px 25px;
-    height: 750px;
+    height: 450px;
   }
   .introduction-section .box {
     display: flex;
@@ -22029,6 +22029,17 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
     margin: 15px auto 0;
   }
 }
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 10px;
+}
+
+.grid-item {
+  width: 400px;
+}
+
 @media (max-width: 575px) and (min-width: 521px) {
   .slider-section .main-mobile-slider.swiper-container {
     height: 698px;
@@ -22082,7 +22093,7 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
   }
   .bod-slider-section .bod-box {
     padding: 15px 25px 15px 25px;
-    height: 865px;
+    height: 300px;
   }
   .manag-sec .bod-box {
     height: 650px;
@@ -22359,7 +22370,7 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
   }
   .bod-slider-section .bod-box {
     padding: 15px 25px 15px 25px;
-    height: 920px;
+    height: 250px;
   }
   .manag-sec .bod-box {
     height: 720px;
@@ -22747,10 +22758,10 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
   .bod-box {
     padding: 75px 50px;
     text-align: center;
-    height: 750px;
+    height: 450px;
   }
   .bod-slider-section .bod-box {
-    height: 1020px;
+    height: 460px;
   }
   .manag-sec .bod-box {
     height: 800px;
@@ -22976,7 +22987,7 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
   .bod-box {
     padding: 50px 35px;
     text-align: center;
-    height: 850px;
+    height: 450px;
   }
   .manag-sec .bod-box {
     height: 740px;
@@ -23282,7 +23293,7 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
   .bod-box {
     padding: 75px 50px;
     text-align: center;
-    height: 950px;
+    height: 450px;
   }
   .career-progression .bod-box {
     height: auto;
@@ -23452,7 +23463,7 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
   .bod-box {
     padding: 75px 50px;
     text-align: center;
-    height: 750px;
+    height: 450px;
   }
   .career-progression .bod-box {
     height: auto;
@@ -23614,12 +23625,12 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
   .bod-box {
     padding: 75px 50px;
     text-align: center;
-    height: 950px;
+    height: 450px;
   }
   .bod-slider-section .bod-box {
     padding: 50px 50px;
     text-align: center;
-    height: 950px;
+    height: 450px;
   }
   .manag-sec .bod-box {
     padding: 50px 50px;
@@ -23837,12 +23848,12 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
   .bod-box {
     padding: 75px 50px;
     text-align: center;
-    height: 950px;
+    height: 450px;
   }
   .bod-slider-section .bod-box {
     padding: 50px 50px;
     text-align: center;
-    height: 950px;
+    height: 450px;
   }
   .manag-sec .bod-box {
     padding: 50px 50px;
@@ -23989,11 +24000,11 @@ label.btn input[type="checkbox"]:not(.filled-in) + label:after {
     top: -155px;
   }
   .bod-box {
-    height: 830px;
+    height: 430px;
   }
   .bod-slider-section .bod-box {
     text-align: center;
-    height: 970px;
+    height: 470px;
   }
   .manag-sec .bod-box {
     height: 830px;
